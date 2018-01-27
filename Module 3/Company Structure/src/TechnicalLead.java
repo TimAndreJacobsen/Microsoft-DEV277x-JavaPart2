@@ -6,6 +6,7 @@ public class TechnicalLead extends TechnicalEmployee {
     private int headCount;
     private List<SoftwareEngineer> engineerList;
 
+    // Constructor - every technical lead starts with null, has room for 4 engineers
     public TechnicalLead(String name) {
         super(name);
         this.headCount = 4;
@@ -17,6 +18,7 @@ public class TechnicalLead extends TechnicalEmployee {
         return super.getBaseSalary() * 1.3;
     }
 
+    // checks if tech lead has room on his team
     public boolean hasHeadCount() {
         if (this.engineerList.size() < this.headCount) {
             return true;
@@ -24,10 +26,7 @@ public class TechnicalLead extends TechnicalEmployee {
         return false;
     }
 
-    public List<SoftwareEngineer> getEngineerList() {
-        return engineerList;
-    }
-
+    // add engineer to the team, set manager for engineer, grants code access
     public boolean addReport(SoftwareEngineer engineer) {
         if (this.hasHeadCount()) {
             this.engineerList.add(engineer);
@@ -38,6 +37,7 @@ public class TechnicalLead extends TechnicalEmployee {
         return false;
     }
 
+    // returns true if engineer is on a team and has codeaccess
     public boolean approveCheckIn(SoftwareEngineer engineer) {
         if (this.engineerList.contains(engineer)
                 &&
@@ -45,6 +45,11 @@ public class TechnicalLead extends TechnicalEmployee {
             return true;
         }
         return false;
+    }
+
+    // getters and setters
+    public List<SoftwareEngineer> getEngineerList() {
+        return engineerList;
     }
 
     public String getTeamStatus() {
@@ -63,9 +68,6 @@ public class TechnicalLead extends TechnicalEmployee {
         }
         return s;
     }
-
-
-
 
 
 }

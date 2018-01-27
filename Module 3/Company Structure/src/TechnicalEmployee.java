@@ -7,6 +7,7 @@ public abstract class TechnicalEmployee extends Employee {
         this.checkIns = 0;
     }
 
+    @Override
     public String employeeStatus(){
         this.checkIns = this.getCheckIns();
         if (this.checkIns > 0) {

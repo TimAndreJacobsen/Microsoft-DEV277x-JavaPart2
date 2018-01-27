@@ -33,8 +33,4 @@ public class SoftwareEngineer extends TechnicalEmployee {
         setCodeAccess(false);
         return false;
     }
-
-
-
-
 }
