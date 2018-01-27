@@ -1,5 +1,5 @@
 public class Accountant extends BusinessEmployee {
-    // Accountant calculates bonus of
+
     private TechnicalLead supportsTechLead;
     private Employee businessLead;
     private double bonusBudget;
@@ -8,6 +8,7 @@ public class Accountant extends BusinessEmployee {
         super(name);
         this.supportsTechLead = null;
         this.bonusBudget = 0;
+        System.out.println("salary set to: " + this.getBaseSalary());
     }
 
     @Override

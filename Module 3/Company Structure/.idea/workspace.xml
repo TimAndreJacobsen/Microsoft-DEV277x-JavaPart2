@@ -16,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/CompanyStructure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -25,8 +25,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="method#Employee#0;class#Employee#0" expanded="false" />
                 <element signature="method#equals#0;class#Employee#0" expanded="false" />
@@ -64,8 +64,8 @@
       <file leaf-file-name="TechnicalLead.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TechnicalLead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+            <state relative-caret-position="729">
+              <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="method#TechnicalLead#0;class#TechnicalLead#0" expanded="false" />
                 <element signature="method#hasHeadCount#0;class#TechnicalLead#0" expanded="false" />
@@ -81,23 +81,37 @@
       <file leaf-file-name="BusinessEmployee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BusinessEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Accountant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Accountant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Accountant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="189">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
-                <element signature="method#Accountant#0;class#Accountant#0" expanded="false" />
                 <element signature="method#setSupportsTechLead#0;class#Accountant#0" expanded="false" />
                 <element signature="method#calculateBonus#0;class#Accountant#0" expanded="false" />
                 <element signature="method#approveBonus#0;class#Accountant#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessLead.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BusinessLead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +126,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -122,16 +139,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/CompanyStructure.java" />
-        <option value="$PROJECT_DIR$/src/Employee.java" />
         <option value="$PROJECT_DIR$/src/TechnicalEmployee.java" />
         <option value="$PROJECT_DIR$/src/BusinessEmployee.java" />
         <option value="$PROJECT_DIR$/src/SoftwareEngineer.java" />
-        <option value="$PROJECT_DIR$/src/Accountant.java" />
         <option value="$PROJECT_DIR$/src/TechnicalLead.java" />
+        <option value="$PROJECT_DIR$/src/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Accountant.java" />
+        <option value="$PROJECT_DIR$/src/BusinessLead.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="389" />
     <option name="y" value="-16" />
     <option name="width" value="682" />
@@ -176,6 +194,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,7 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -270,7 +289,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -473,6 +492,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TechnicalLead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="method#TechnicalLead#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="method#hasHeadCount#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="method#addReport#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="method#approveCheckIn#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="method#getTeamStatus#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="method#getTeamStatus_Helper#0;class#TechnicalLead#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SoftwareEngineer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -481,6 +515,14 @@
             <element signature="method#SoftwareEngineer#0;class#SoftwareEngineer#0" expanded="false" />
             <element signature="method#checkInCode#0;class#SoftwareEngineer#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompanyStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -497,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="method#Employee#0;class#Employee#0" expanded="false" />
             <element signature="method#equals#0;class#Employee#0" expanded="false" />
@@ -506,46 +548,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompanyStructure.java">
+    <entry file="file://$PROJECT_DIR$/src/Accountant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="method#setSupportsTechLead#0;class#Accountant#0" expanded="false" />
+            <element signature="method#calculateBonus#0;class#Accountant#0" expanded="false" />
+            <element signature="method#approveBonus#0;class#Accountant#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BusinessEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TechnicalLead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="method#TechnicalLead#0;class#TechnicalLead#0" expanded="false" />
-            <element signature="method#hasHeadCount#0;class#TechnicalLead#0" expanded="false" />
-            <element signature="method#addReport#0;class#TechnicalLead#0" expanded="false" />
-            <element signature="method#approveCheckIn#0;class#TechnicalLead#0" expanded="false" />
-            <element signature="method#getTeamStatus#0;class#TechnicalLead#0" expanded="false" />
-            <element signature="method#getTeamStatus_Helper#0;class#TechnicalLead#0" expanded="false" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Accountant.java">
+    <entry file="file://$PROJECT_DIR$/src/BusinessLead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="405">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="method#Accountant#0;class#Accountant#0" expanded="false" />
-            <element signature="method#setSupportsTechLead#0;class#Accountant#0" expanded="false" />
-            <element signature="method#calculateBonus#0;class#Accountant#0" expanded="false" />
-            <element signature="method#approveBonus#0;class#Accountant#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

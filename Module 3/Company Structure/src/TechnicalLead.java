@@ -68,6 +68,4 @@ public class TechnicalLead extends TechnicalEmployee {
         }
         return s;
     }
-
-
 }

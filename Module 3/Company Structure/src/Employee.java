@@ -19,6 +19,10 @@ public abstract class Employee {
         return this.salary;
     }
 
+    public void setBaseSalary(double salary) {
+        this.salary = salary;
+    }
+
     public String getName() {
         return this.name;
     }
