@@ -9,10 +9,17 @@ public class SoftwareEngineer extends TechnicalEmployee {
         this.codeAccess = false;
     }
 
+    // getters and setters
     public void setManager(TechnicalLead manager) {
         this.manager = manager;
     }
 
+    @Override
+    public TechnicalLead getManager() {
+        return manager;
+    }
+
+    @Override
     public int getCheckIns() {
         return checkIns;
     }
@@ -25,6 +32,7 @@ public class SoftwareEngineer extends TechnicalEmployee {
         this.codeAccess = access;
     }
 
+    // class methods
     public boolean checkInCode() {
         if (this.manager.approveCheckIn(this)) {
             this.checkIns++;

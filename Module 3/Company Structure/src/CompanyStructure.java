@@ -27,7 +27,6 @@ public class CompanyStructure {
         VPofENG.addReport(seG);
         System.out.println(VPofENG.getTeamStatus());
 
-        /*
         BusinessLead CFO = new BusinessLead("Amy Hood");
         Accountant actA = new Accountant("Niky");
         Accountant actB = new Accountant("Andrew");
@@ -35,7 +34,6 @@ public class CompanyStructure {
         CFO.addReport(actB, VPofENG);
         System.out.println(CFO.getTeamStatus());
 
-        */
 
     }
 }

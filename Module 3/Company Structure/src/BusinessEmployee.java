@@ -8,7 +8,7 @@ public abstract class BusinessEmployee extends Employee{
     }
 
     public double getBonusBudget() {
-        return acc.getBonusBudget();
+        return bonusBudget;
     }
 
     @Override

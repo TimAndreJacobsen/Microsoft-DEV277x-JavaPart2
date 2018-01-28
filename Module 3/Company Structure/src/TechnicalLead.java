@@ -5,6 +5,7 @@ public class TechnicalLead extends TechnicalEmployee {
 
     private int headCount;
     private List<SoftwareEngineer> engineerList;
+    private Accountant accountant;
 
     // Constructor - every technical lead starts with null, has room for 4 engineers
     public TechnicalLead(String name) {
@@ -13,10 +14,6 @@ public class TechnicalLead extends TechnicalEmployee {
         this.engineerList = new ArrayList<SoftwareEngineer>();
     }
 
-    @Override
-    public double getBaseSalary() {
-        return super.getBaseSalary() * 1.3;
-    }
 
     // checks if tech lead has room on his team
     public boolean hasHeadCount() {
@@ -67,5 +64,18 @@ public class TechnicalLead extends TechnicalEmployee {
             s += engineer.employeeStatus() + "\n";
         }
         return s;
+    }
+
+    @Override
+    public double getBaseSalary() {
+        return super.getBaseSalary() * 1.3;
+    }
+
+    public void setAccountant(Accountant accountant) {
+        this.accountant = accountant;
+    }
+
+    public Accountant getAccountant() {
+        return accountant;
     }
 }

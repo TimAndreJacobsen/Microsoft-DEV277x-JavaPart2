@@ -19,4 +19,5 @@ public abstract class TechnicalEmployee extends Employee {
     public int getCheckIns() {
         return checkIns;
     }
+
 }

@@ -1,7 +1,7 @@
 public class Accountant extends BusinessEmployee {
 
     private TechnicalLead supportsTechLead;
-    private Employee businessLead;
+    private BusinessLead businessLead;
     private double bonusBudget;
 
     public Accountant(String name) {
@@ -33,11 +33,21 @@ public class Accountant extends BusinessEmployee {
         this.supportsTechLead = setTechlead;
         this.bonusBudget = calculateBonus(setTechlead);
         System.out.println("bonus budget calculated: " + bonusBudget);
+        setTechlead.setAccountant(this);
+    }
+
+    public void setManager(BusinessLead businessLead) {
+        this.businessLead = businessLead;
+    }
+
+    @Override
+    public BusinessLead getManager() {
+        return this.businessLead;
     }
 
     // helper method  returns 75 000 * team.size OR 0 if no team/empty budget
     private double calculateBonus(TechnicalLead techLead) {
-        double bonusDraft = ((double)techLead.getEngineerList().size() * 75000.0 ) * 1.1;
+        double bonusDraft = Math.round(((double)techLead.getEngineerList().size() * 75000.0 ) * 1.1);
         if (approveBonus(bonusDraft))
             return bonusDraft;
         return 0;
@@ -45,9 +55,14 @@ public class Accountant extends BusinessEmployee {
 
     // helper method  Checks if budget > calculated bonus
     public boolean approveBonus(double bonusDraft) {
-        if (this.getManager().getBudget() >= bonusDraft) {
+        if (getManager().getBudget() >= bonusDraft) {
+            // Deduct from budget?
             return true;
         }
         return false;
+    }
+
+    public void deductBonusBudget(double bonus) {
+        this.bonusBudget -= bonus;
     }
 }

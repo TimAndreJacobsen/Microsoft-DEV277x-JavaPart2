@@ -5,6 +5,7 @@ public abstract class Employee {
     private double salary;
     private int employeeID;
     private TechnicalLead manager;
+    private double bonus;
 
     public Employee(String name, double baseSalary) {
         this.name = name;
@@ -40,11 +41,16 @@ public abstract class Employee {
         return (this.employeeID == other.getEmployeeID());
     }
 
+    @Override
     public String toString() {
         return this.employeeID + " " + this.name;
     }
 
     public String employeeStatus() {
         return "" + getEmployeeID() + " " + this.getName() + " ";
+    }
+
+    public void giveBonus(double bonus) {
+        this.bonus += bonus;
     }
 }
