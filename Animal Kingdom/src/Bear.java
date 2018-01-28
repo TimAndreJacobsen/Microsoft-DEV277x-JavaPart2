@@ -8,20 +8,12 @@ public class Bear extends Critter {
     public Bear(boolean isPolar) {
         this.stepsTaken = 0;
         this.polar = isPolar;
-        /* randomizing type
-        Random rand = new Random();
-        int isPolar = rand.nextInt(1);
-        System.out.println("rand int 0-1: " + isPolar);
-        if (isPolar == 0) {
-            polar = false;
-        } else {
-            polar = true;
-        } */
     }
 
     @Override
     public Action getMove(CritterInfo info) {
         stepsTaken++;
+
         if (info.getFront() == Neighbor.OTHER) { // Front is enemy
             return Action.INFECT;
         } else if (info.getFront() == Neighbor.EMPTY) { // Front is empty

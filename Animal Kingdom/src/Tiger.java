@@ -30,10 +30,14 @@ public class Tiger extends Critter {
 
     @Override
     public Action getMove(CritterInfo info) {
+        stepsTaken++;
+
         if (info.getFront() == Neighbor.OTHER) {
             return Action.INFECT;
+
         } else if (info.getFront() == Neighbor.WALL || info.getRight() == Neighbor.WALL) {
             return super.getMove(info);
+
         } else if (info.getFront() == Neighbor.SAME) {
             return Action.RIGHT;
         }
