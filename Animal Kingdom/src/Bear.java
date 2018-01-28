@@ -5,8 +5,9 @@ public class Bear extends Critter {
     private boolean polar;
     private int stepsTaken;
 
-    public Bear() {
+    public Bear(boolean isPolar) {
         this.stepsTaken = 0;
+        this.polar = isPolar;
         /* randomizing type
         Random rand = new Random();
         int isPolar = rand.nextInt(1);
